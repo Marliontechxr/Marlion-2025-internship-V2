@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cspthree\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 4. Internship offer letter download: for the selected candidates we must display this page with rules and best practices to be followed during the internship and on clicking i agree should be able to download their offer letters. For candidates rejected in the initial screening we must show a regret message and their app experience ends there.\
+\
+5. Main dashboard: once the offer letter is downloaded the student must be redirected to a main dashboard which will have the following features built into it. 1. Online bootcamp kit that would contain short video lectures addressing various frameworks and methods the student should be familiar with while coming for their first day of internship. This should have a layout similar to udemy with an AI chat panel built into it for students to get contextual answers to their queries while viewing these lectures. For each module completion there shall be a short AI interaction to test the user's understanding before progressing to the next step. (This similar to inital onboarding interview shall have a voice first with text fall back and we must not explicitly warn but ban user if they copy paste answers with a sarcastic message " we would rather work with the AI directly than collabrating with a human who would mindlessly copy paste AI generated responses" we will also have a link to submit an appeal if the user feels they were wrongly banned. 2. The dashboard will then contain a problem statement tab that will give a detailed brief of what the student is expected to work on with objectives end goals and tech stack with prerequisites. The student can also submit their own proposal by uploading a pdf and explaining their idea in a nutshell in the textbox and we will show the user a message saying they have to check back after 24 hours to see if their problem statement proposal was approved. 3.The next tab will be a project tracker (kanban) that will show the overall WBS milestones and timelines. The student can mark this checklist for review. The student shall also journal their everyday progress with provision to share attachments github url and a description of what was completed in that given day. 4. A help section with ai integration for logging blockers or any other feedbacks during the course of the internship. This dashboard will have a progress meter showing how much percentage of work is left to unlock their internship certificate. \
+\
+6. Download certificate and feedback: upon unlocking their completion status to 100 % the student can download a QR verifyable pdf certificate along with an AI summary of their journey at marlion and feedback and future directions.\
+\
+\
+This project will have a turbo monorepo structure. all the detailed given above for the student app. Now we will also have an admin app to run this whole process. both apps access the same source of truth as backend. \
+\
+For admin app we have login with email and password (no signup) followed by following features\
+t shall have the following features.\cf0 \
+\
+\
+\cf2 1. dashboard to view list of registered students with activity logs\
+2. Student's video course completion performance and AI's evaluation of their submissions with filters for semantic search and sorting by marks, college etc.\
+3.CMS for course structure headings and respective uploads of video URL along with provisions to create an AI summary so that the AI can shoot questions or answer questions relavant to the uploaded video.\'a0\
+4. Student selection process where they review the AI assessments and either select or reject the student which then gets published as results to the selected students along with mail.\
+5. Provision for uploading project problem statements and respective learning references and docs.\'a0\
+6, provision to assign the selected students to any of the projects in the available project list\
+7. Provision to track everyday work progress and intervene with personal messages as and when required\
+8. Provision to make announcements and moderate community discussions.\
+9. provisions to remove any student from the internship based on lack of conduct or performance.\
+10. to verify student status such as certificate issued.,\
+11. To view student's feedbacks in table with semantic AI features.\
+\
+build this entirely production ready with no hardcoded mock data stuffing\cf0 ...}
